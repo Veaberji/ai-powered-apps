@@ -9,4 +9,4 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req: Request, res: Response) => res.send(process.env.OPENAI_API_KEY));
 
-app.listen(port, () => console.log(`Server is running on port ${port}`));
+app.listen(port, () => console.log(`Server is running on http://localhost:${port}/`));
