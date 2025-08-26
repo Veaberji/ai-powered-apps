@@ -1,15 +1,9 @@
-# Full stack project
+# server
 
 To install dependencies:
 
 ```bash
 bun install
-```
-
-Add your OpenAI API key as env var, create .env file with
-
-```
-OPENAI_API_KEY=<your key>
 ```
 
 To run:
