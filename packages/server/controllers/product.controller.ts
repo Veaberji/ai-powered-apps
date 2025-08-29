@@ -10,7 +10,10 @@ export const productController = {
       return;
     }
 
-    res.json(await productService.getProductReviews(productId));
+    const reviews = await productService.getProductReviews(productId);
+    const summary = await productService.getProductSummarizedReviews(productId);
+
+    res.json({ reviews, summary });
   },
 
   async getProductSummarizedReviews(req: Request, res: Response) {
