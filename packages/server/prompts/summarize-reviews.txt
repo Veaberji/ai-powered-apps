@@ -1,0 +1,1 @@
+Summarize the following customer reviews into a paragraph, highlighting key themes: {{reviews}}
