@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/chat" element={<ChatBot />} />
-          {/* <Route path="/reviews" element={<ReviewList />} /> */}
           <Route path="/reviews" element={<ReviewSelector />} />
           <Route path="/reviews/:productId" element={<ReviewListWrapper />} />
         </Routes>

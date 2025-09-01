@@ -6,12 +6,12 @@ const Home = () => {
       <div className="space-x-4">
         <Link to="/chat">
           <button className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-            Go to ChatBot
+            WonderWorld park ChatBot
           </button>
         </Link>
         <Link to="/reviews">
           <button className="px-6 py-3 bg-green-600 text-white rounded hover:bg-green-700 transition">
-            Go to ReviewList
+            Reviews with summarization
           </button>
         </Link>
       </div>
